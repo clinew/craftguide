@@ -1239,6 +1239,8 @@ function craftguide.show(name, item, show_usages)
 	show_fs(player, name)
 end
 
+minetest.register_alias("xdecor:crafting_guide", "craftguide:book")
+
 --[[ Custom recipes (>3x3) test code
 
 M.register_craftitem(":secretstuff:custom_recipe_test", {
